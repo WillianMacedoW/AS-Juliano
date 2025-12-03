@@ -47,7 +47,9 @@ function FormProduct({ initialData = {}, onSubmit, submitLabel }) {
 
   const handleChange = (e) => {
     const { name, value } = e.target
-    setFormData((prev) => ({ ...prev, [name]: name === 'preco' || name === 'estoque' ? Number(value) : value }))
+    const isNumero = name === 'preco' || name === 'estoque'
+    const parsedValue = isNumero ? (value === '' ? '' : Number(value)) : value
+    setFormData((prev) => ({ ...prev, [name]: parsedValue }))
   }
 
   const handleSubmit = (e) => {
@@ -56,10 +58,12 @@ function FormProduct({ initialData = {}, onSubmit, submitLabel }) {
     onSubmit(formData)
   }
 
-  const inputClasses = (hasError) =>
-    `w-full rounded-md border px-3 py-2 text-slate-800 placeholder:text-slate-400 focus:outline-none focus:ring-2 focus:ring-indigo-500 ${
-      hasError ? 'border-red-400 ring-red-200' : 'border-slate-300'
-    }`
+  const inputClasses = (hasError) => {
+    const baseClasses =
+      'w-full rounded-md border px-3 py-2 text-slate-800 placeholder:text-slate-400 focus:outline-none focus:ring-2 focus:ring-indigo-500'
+    const stateClasses = hasError ? 'border-red-400 ring-red-200' : 'border-slate-300'
+    return `${baseClasses} ${stateClasses}`
+  }
 
   return (
     <form onSubmit={handleSubmit} className="bg-white shadow rounded-lg p-6 space-y-5">
