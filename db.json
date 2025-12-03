@@ -7,6 +7,38 @@
       "preco": 99.99,
       "estoque": 5,
       "imagem": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?auto=format&fit=crop&w=800&q=60"
+    },
+    {
+      "id": 2,
+      "nome": "Fone Bluetooth",
+      "descricao": "Fone de ouvido sem fio com cancelamento de ruído e bateria de longa duração.",
+      "preco": 249.9,
+      "estoque": 8,
+      "imagem": "https://images.unsplash.com/photo-1585386959984-a4155224a1ad?auto=format&fit=crop&w=800&q=60"
+    },
+    {
+      "id": 3,
+      "nome": "Câmera Instantânea",
+      "descricao": "Câmera compacta para fotos instantâneas com ajuste automático de exposição.",
+      "preco": 499.9,
+      "estoque": 3,
+      "imagem": "https://images.unsplash.com/photo-1526170375885-4d8ecf77b99f?auto=format&fit=crop&w=800&q=60"
+    },
+    {
+      "id": 4,
+      "nome": "Mochila Tech",
+      "descricao": "Mochila leve e impermeável com compartimento para notebook de até 15 polegadas.",
+      "preco": 189.9,
+      "estoque": 10,
+      "imagem": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=800&q=60"
+    },
+    {
+      "id": 5,
+      "nome": "Teclado Mecânico",
+      "descricao": "Teclado mecânico com switches silenciosos e iluminação RGB personalizável.",
+      "preco": 349.9,
+      "estoque": 7,
+      "imagem": "https://images.unsplash.com/photo-1517336714731-489689fd1ca8?auto=format&fit=crop&w=800&q=60"
     }
   ]
 }
