@@ -1,0 +1,12 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "nome": "Produto Exemplo",
+      "descricao": "Texto",
+      "preco": 99.99,
+      "estoque": 5,
+      "imagem": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?auto=format&fit=crop&w=800&q=60"
+    }
+  ]
+}
