@@ -4,7 +4,7 @@ import Loader from '../components/Loader'
 import MensagemErro from '../components/MensagemErro'
 import { useCart } from '../context/CartContext'
 
-const API_URL = 'http://localhost:3001/products'
+const API_URL = "https://as-juliano-back.onrender.com";
 
 function ProductDetails() {
   const { id } = useParams()

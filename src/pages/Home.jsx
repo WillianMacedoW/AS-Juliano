@@ -1,7 +1,7 @@
 import ProductList from '../components/ProductList'
 import { useFetch } from '../hooks/useFetch'
 
-const API_URL = 'http://localhost:3001/products'
+const API_URL = "https://as-juliano-back.onrender.com/products";
 
 function Home() {
   const { data, loading, error, refetch } = useFetch(API_URL)

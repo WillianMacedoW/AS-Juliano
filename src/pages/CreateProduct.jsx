@@ -3,7 +3,7 @@ import { useNavigate } from 'react-router-dom'
 import FormProduct from '../components/FormProduct'
 import MensagemErro from '../components/MensagemErro'
 
-const API_URL = 'http://localhost:3001/products'
+const API_URL = "https://as-juliano-back.onrender.com";
 
 function CreateProduct() {
   const navigate = useNavigate()
@@ -12,7 +12,8 @@ function CreateProduct() {
   const handleCreate = async (product) => {
     try {
       setError(null)
-      const response = await fetch(API_URL, {
+      
+      const response = await fetch(`${API_URL}/products`, {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify(product),

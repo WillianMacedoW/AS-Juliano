@@ -4,7 +4,7 @@ import FormProduct from '../components/FormProduct'
 import Loader from '../components/Loader'
 import MensagemErro from '../components/MensagemErro'
 
-const API_URL = 'http://localhost:3001/products'
+const API_URL = "https://as-juliano-back.onrender.com";
 
 function EditProduct() {
   const { id } = useParams()
