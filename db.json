@@ -1,0 +1,44 @@
+{
+  "products": [
+    {
+      "nome": "Relógio SmartFit Minimal",
+      "descricao": "Relógio inteligente com design minimalista e confortável para o dia a dia. Ideal para acompanhar sua rotina, treinos leves e notificações, combinando estilo e praticidade em qualquer ocasião.",
+      "preco": 99.99,
+      "imagem": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?auto=format&fit=crop&w=800&q=60",
+      "estoque": 5,
+      "id": 1
+    },
+    {
+      "nome": "Fone Bluetooth AirSound Pro",
+      "descricao": "Fone de ouvido sem fio com som limpo e potente, conexão Bluetooth estável e bateria de longa duração. Perfeito para música, chamadas e uso diário com conforto e liberdade total de movimentos.",
+      "preco": 249.9,
+      "imagem": "https://m.media-amazon.com/images/I/51RG4+RYvUL._AC_SX522_.jpg",
+      "estoque": 8,
+      "id": 2
+    },
+    {
+      "nome": "Câmera Instantânea RetroSnap",
+      "descricao": "Câmera instantânea compacta com visual retrô e revelação imediata. Capture momentos especiais com charme clássico e ajuste automático de exposição para fotos sempre bem iluminadas.",
+      "preco": 499.9,
+      "imagem": "https://images.unsplash.com/photo-1526170375885-4d8ecf77b99f?auto=format&fit=crop&w=800&q=60",
+      "estoque": 3,
+      "id": 3
+    },
+    {
+      "nome": "Mochila Tech Urban 15",
+      "descricao": "Mochila moderna, leve e resistente, com compartimento acolchoado para notebook de até 15 polegadas. Ideal para trabalho, estudos ou viagens, oferecendo organização, conforto e proteção.",
+      "preco": 189.9,
+      "imagem": "https://http2.mlstatic.com/D_NQ_NP_2X_759376-MLB103566718315_012026-F-mochila-viagem-impermeavel-executiva-grande-para-notebook.webp",
+      "estoque": 10,
+      "id": 4
+    },
+    {
+      "nome": "Teclado Mecânico RGB Strike",
+      "descricao": "Teclado mecânico de alta performance com switches silenciosos e iluminação RGB personalizável. Ideal para gamers e profissionais que buscam precisão, conforto e visual moderno no setup.",
+      "preco": 349.9,
+      "imagem": "https://images.tcdn.com.br/img/img_prod/1002494/kit_gamer_redragon_teclado_mecanico_gamer_k568rgb_2_red_mouse_gamer_12400dpi_m801_rgb_headset_h350rg_12475_1_a802383a7a9f49a21f7b790c210e20c7.jpg",
+      "estoque": 7,
+      "id": 5
+    }
+  ]
+}
